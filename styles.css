@@ -1,0 +1,100 @@
+nav ul{
+    display: flex; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    margin: 50px;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    width: 300px;
+    margin: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+.mision_vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision_vision div{
+    width: 80%;
+    margin: 15px;
+}
+
+.mision_vision div p{
+    text-align: justify;
+
+}
+
+.mision_vision div h2{
+    text-align: center;
+}
+
+.imagenes_inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.sinespaciado{
+    margin: 0;
+}
+
+.carditem{
+    display: flex;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #c2c2c2;
+    margin: 15px;
+}
+
+.carditem img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #c2c2c2;
+}
+
+.containerinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containergallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reseñacard{
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #c2c2c2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.reseñacard p{
+    text-align: justify;
+}
