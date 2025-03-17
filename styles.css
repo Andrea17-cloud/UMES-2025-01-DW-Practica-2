@@ -169,6 +169,12 @@ body{
     margin: 15px;
 }
 
+.img_card{
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+}
+
 .carditem img{
     border-radius: 15px;
     box-shadow: 0px 0px 10px 0px #c2c2c2;
