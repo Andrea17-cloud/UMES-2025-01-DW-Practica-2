@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.navbar-brand img{
+    height: 10vh;
+    width: 10vh;
+}
+
 .logo {
     display: flex; 
     flex-direction: column; 
@@ -32,6 +37,7 @@ body{
 .imagenes_inicio{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .imagenes_inicio {
@@ -116,8 +122,15 @@ body{
     padding: 20px;
 }
 
+.logo p{
+    margin: 0;
+}
 
-@media (max-width: 500px) {
+.up-font{
+    font-size: 30px;
+}
+
+@media (max-width: 1025px) {
     .contenido {
         display: grid;
         gap: 0px;
@@ -130,6 +143,19 @@ body{
     }
     .imagenes_inicio img{
         max-width: 25%;
+    }
+    .logo{
+        font-size: 10px;
+    }
+    .up-font{
+        font-size: 15px;
+    }
+    .entrada{
+        font-size: 50px;
+        border: 1px solid white;
+    }
+    .imagenes_inicio img{
+        width: 25%;
     }
 
 
